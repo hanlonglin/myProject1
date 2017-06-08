@@ -49,6 +49,7 @@ void MainWindow::loginSlot()
         {
             setting->setValue("user/passwd",passwd);
         }
+        homeWindow->showNormal();
     }
     else
     {

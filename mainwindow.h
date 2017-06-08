@@ -7,6 +7,7 @@
 #include <QSettings>
 #include <QCoreApplication>
 #include <QDir>
+#include "homewindow.h"
 
 
 namespace Ui {
@@ -26,6 +27,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+    HomeWindow *homeWindow=new HomeWindow;
 
 private slots:
 
